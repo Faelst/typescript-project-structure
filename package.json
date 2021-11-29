@@ -1,0 +1,38 @@
+{
+  "name": "df-ms-manager",
+  "description": "Microservice centralizer",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:dfcomsoftwarescompany/df-ms-manager.git",
+  "author": "Rafael Silverio <fael_st@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/babel__core": "^7.1.16",
+    "@types/bull": "^3.15.5",
+    "@types/bull-board": "^0.6.0",
+    "@types/form-data": "^2.5.0",
+    "@types/jest": "^27.0.2",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.12",
+    "ts-node-dev": "^1.1.8"
+  }
+}
