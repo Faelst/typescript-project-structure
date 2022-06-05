@@ -1,9 +1,9 @@
 {
-  "name": "df-ms-manager",
-  "description": "Microservice centralizer",
+  "name": "",
+  "description": "",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "repository": "git@github.com:dfcomsoftwarescompany/df-ms-manager.git",
+  "repository": "git@github.com:dfcomsoftwarescompany/",
   "author": "Rafael Silverio <fael_st@hotmail.com>",
   "license": "MIT",
   "scripts": {
@@ -31,8 +31,5 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "mongoose": "^6.0.12",
-    "ts-node-dev": "^1.1.8"
   }
 }
